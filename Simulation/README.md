@@ -1,7 +1,5 @@
 # TESTBENCH  
-The data **WIDTH** is chosen as **4** and FIFO **DEPTH** is chosen as **8**. Random data is generated and given to the `wdata` port. The `rst_n` signal is used to reset the **read & write pointers** and assert the **empty** flag.  
-
-The **read and write clocks** are generated, and their time periods can be varied. A **FIFO queue** is implemented to verify FIFO operation.  
+The data **WIDTH** is chosen as **4** and FIFO **DEPTH** is chosen as **8**. Random data is generated and given to the `wdata` port. The `rst_n` signal is used to reset the **read & write pointers** and assert the **empty** flag.   
 
 # OUTPUTS 
 - A **three-cycle delay** is observed in de-asserting the **empty** flag. This is because the write-pointer update is reflected in the **read clock domain** only after three cycles.  
