@@ -57,6 +57,8 @@ An asynchronous FIFO inherently provides a robust solution for multi-bit CDC:
 - FIFO Buffers Data: Ensures proper storage before transferring to the receiving domain.
 - Write and Read Pointers Use Gray Code: Prevents errors in data transfer.
 - Status Flags (Full & Empty) Are Synchronized: Ensures safe read and write operations.
+  ![image](https://github.com/user-attachments/assets/8eefd247-d893-4c0d-a21c-460cc116eaba)
+
 
 # Conclusion
 
