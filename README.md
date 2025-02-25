@@ -1,6 +1,6 @@
 # Asynchronous-Fifo
 
-# Asynchronous FIFO Design
+# Introduction
 
 Asynchronous FIFO (First-In-First-Out) is a crucial design in digital systems where data transfer occurs between different clock domains. It plays a key role in clock domain crossing (CDC), ensuring reliable data transmission while preventing metastability issues. This report provides an overview of asynchronous FIFO design, the importance of CDC, synchronization techniques, challenges in multi-bit CDC, and the implementation of Gray code for addressing these challenges.
 
@@ -10,9 +10,9 @@ An Asynchronous FIFO is a memory buffer that allows data to be written and read 
 
 # Key Features of Asynchronous FIFO:
 
-Supports communication between different clock domains.
+. Supports communication between different clock domains.
 
-Uses independent write and read clocks.
+ Uses independent write and read clocks.
 
 Implements synchronization techniques to prevent metastability.
 
