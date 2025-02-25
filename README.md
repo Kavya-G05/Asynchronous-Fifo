@@ -20,6 +20,9 @@ Clock Domain Crossing (CDC) occurs when data is transferred between two clock do
 - Glitches and Timing Violations: Due to improper synchronization.
 - To mitigate these issues, FIFO buffers, two-flop synchronizers, and Gray code encoding are commonly used.
 
+  ![image](https://github.com/user-attachments/assets/5da5179b-0c37-4e67-82d5-a8a38bb3b0e8)
+
+
 # Two-Flop Synchronizers
 
 The two-flop synchronizer is a widely used technique to reduce metastability. It consists of two cascaded D flip-flops in the receiving clock domain.
@@ -29,6 +32,9 @@ The two-flop synchronizer is a widely used technique to reduce metastability. It
 - Metastability Reduction: The first flip-flop captures the asynchronous signal, allowing it to settle before reaching the second flip-flop.
 - Ensures Proper Sampling: Helps the receiving domain to correctly interpret the data without glitches.
 - Improves Setup and Hold Timing Margins: Increases the reliability of data capture.
+
+  ![image](https://github.com/user-attachments/assets/60844a43-cbc2-4a67-bc12-26112f662693)
+
 
 # Multi-Bit CDC and Associated Challenges
 
